@@ -1,0 +1,58 @@
+# Reviewed flutter_local_notifications_windows 3.1.1. Never edit the pub cache.
+function(nonet_prepare_notifications source destination)
+  set(names ffi_api.cpp ffi_api.h plugin.cpp plugin.hpp utils.cpp utils.hpp)
+  set(hashes
+    f93f710e58a4a706238e9a9821bd3c0b9617609a8030f6d0f8fe7aa862a8e046
+    a5b8c9e5f95016c32487666f259062f8c3511fd8b585792f24b8a2b46ba62b04
+    e56a6c1939fad6656f136cc7e31803b8544637af78002e275921888ca46ecb65
+    4d7939400ffd668a2015a83cf2f2724a1c419364e09019d4859c8e8e04dde9ae
+    57be02e5bcca66c21dc8f1fe8dc78239845c3417dacca877c5f93ce1aa02dec8
+    b61fa21664acef45c2aa401e9652cfd48afb09f8ff1703858131cefc17a291cc)
+  file(MAKE_DIRECTORY "${destination}")
+  set_property(DIRECTORY APPEND PROPERTY CMAKE_CONFIGURE_DEPENDS
+    "${NONET_NOTIFICATION_NATIVE}/local_notification_ffi_boundary.inc")
+  foreach(index RANGE 0 5)
+    list(GET names ${index} name)
+    list(GET hashes ${index} expected)
+    set_property(DIRECTORY APPEND PROPERTY CMAKE_CONFIGURE_DEPENDS "${source}/${name}")
+    file(READ "${source}/${name}" text)
+    string(REPLACE "\r\n" "\n" text "${text}")
+    string(SHA256 actual "${text}")
+    if(NOT actual STREQUAL expected)
+      message(FATAL_ERROR "Notifications SDK ${name} changed: review the pinned compatibility layer")
+    endif()
+    if(name STREQUAL "ffi_api.cpp")
+      foreach(symbol createPlugin disposePlugin init isValidXml showNotification scheduleNotification updateNotification cancelAll cancelNotification getActiveNotifications getPendingNotifications freeDetailsArray freeLaunchDetails)
+        string(REPLACE "${symbol}(" "NonetUnchecked_${symbol}(" text "${text}")
+      endforeach()
+      string(REPLACE "delete pair.key;" "delete[] pair.key;" text "${text}")
+      string(REPLACE "delete pair.value;" "delete[] pair.value;" text "${text}")
+      file(READ "${NONET_NOTIFICATION_NATIVE}/local_notification_ffi_boundary.inc" boundary)
+      string(APPEND text "\n${boundary}")
+    elseif(name STREQUAL "plugin.hpp")
+      string(REPLACE "#include \"ffi_api.h\"" "#include \"ffi_api.h\"\n#include \"local_notification_lifetime.h\"" text "${text}")
+      string(REPLACE "  NativePlugin() {}" "  DWORD registration = 0;\n  std::shared_ptr<nonet::NotificationCallbackGate> gate;\n  NativePlugin() {}" text "${text}")
+      string(REPLACE "  ~NativePlugin() {}" "  ~NativePlugin() {\n    if (gate) gate->Close();\n    if (registration) CoRevokeClassObject(registration);\n  }" text "${text}")
+    elseif(name STREQUAL "plugin.cpp")
+      string(REPLACE "  NativeNotificationCallback callback;" "  std::shared_ptr<nonet::NotificationCallbackGate> gate;" text "${text}")
+      string(REPLACE "cb.get()->callback = callback;" "cb.get()->gate = gate;" text "${text}")
+      string(REPLACE "callback(launchDetails);" "if (!gate->Invoke(launchDetails)) freeLaunchDetails(launchDetails);" text "${text}")
+      string(REPLACE "bool RegisterCallback(const std::string& guid, NativeNotificationCallback callback) {\n  DWORD registration {};" "bool RegisterCallback(const std::string& guid, const std::shared_ptr<nonet::NotificationCallbackGate>& gate, DWORD& registration) {" text "${text}")
+      string(REPLACE "factory->callback = callback;" "factory->gate = gate;" text "${text}")
+      string(REPLACE "return RegisterCallback(guid, callback);" "gate = nonet::NotificationCallbackGate::Create(callback);\n  return RegisterCallback(guid, gate, registration);" text "${text}")
+    endif()
+    file(WRITE "${destination}/${name}" "${text}")
+  endforeach()
+  configure_file("${NONET_NOTIFICATION_NATIVE}/local_notification_lifetime.h" "${destination}/local_notification_lifetime.h" COPYONLY)
+endfunction()
+
+if(TARGET flutter_local_notifications_windows)
+  set(NONET_NOTIFICATION_NATIVE "${CMAKE_CURRENT_LIST_DIR}/../native")
+  get_target_property(notification_sources flutter_local_notifications_windows SOURCES)
+  get_target_property(notification_source_dir flutter_local_notifications_windows SOURCE_DIR)
+  set(notification_copy "${CMAKE_BINARY_DIR}/nonet_notifications_compat")
+  nonet_prepare_notifications("${notification_source_dir}" "${notification_copy}")
+  set_property(TARGET flutter_local_notifications_windows PROPERTY SOURCES
+    "${notification_copy}/ffi_api.cpp" "${notification_copy}/plugin.cpp" "${notification_copy}/utils.cpp")
+  target_include_directories(flutter_local_notifications_windows PRIVATE "${notification_copy}")
+endif()

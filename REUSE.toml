@@ -1,0 +1,553 @@
+version = 1
+
+[[annotations]]
+path = ["native/fmp4_audio_admission.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["native/fmp4_av_admission.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["native/local_media_async_host.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["native/local_media_ownership.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["native/local_pcm_queue.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["native/local_video_queue.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["tool/cmake/local_media_plugins.cmake"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2018 \u6e56\u5317\u6377\u667a\u4e91\u6280\u672f\u6709\u9650\u516c\u53f8"]
+SPDX-License-Identifier = "Apache-2.0 AND MIT"
+
+[[annotations]]
+path = ["tool/cmake/webrtc_sdk.cmake"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["tool/cmake/webrtc_sources.cmake"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["tool/cmake/webrtc_windows_monitor.cmake"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2018 \u6e56\u5317\u6377\u667a\u4e91\u6280\u672f\u6709\u9650\u516c\u53f8"]
+SPDX-License-Identifier = "Apache-2.0 AND MIT"
+
+[[annotations]]
+path = ["windows/.gitignore"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/CMakeLists.txt"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2014 The Flutter Authors"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/cmake/bonsoir_compat.cmake"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2019 Hugo DELAUNAY \"Skyost\""]
+SPDX-License-Identifier = "Apache-2.0 AND MIT"
+
+[[annotations]]
+path = ["windows/cmake/local_notifications_compat.cmake"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2024 Michael Bui"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/cmake/universal_ble_compat.cmake"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2024 Navideck Labs O\u00dc"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/flutter/CMakeLists.txt"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/flutter/generated_plugin_registrant.cc"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/flutter/generated_plugin_registrant.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/flutter/generated_plugins.cmake"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/native/ble_cleanup.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/ble_notification_lifetime.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/ble_notify.cpp.inc"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2024 Navideck Labs O\u00dc"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/native/ble_subscriptions.cpp.inc"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2024 Navideck Labs O\u00dc"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/native/engine_lifetime_messenger.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/local_media_indicator.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/local_media_indicator.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/local_media_indicator_win32.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/local_notification_ffi_boundary.inc"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/local_notification_lifetime.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_aac_inspector.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_aac_inspector.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_aac_sink.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_aac_sink.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_av_fragment_stream.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_av_fragment_stream.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_av_index.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_av_inspector.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_av_inspector.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_av_program.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_av_program.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_av_sink.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_av_sink.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_fragment_stream.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_fragment_stream.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_media_stream.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_pcm_pump.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_pcm_pump.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_preview_frame.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_preview_player.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_preview_player.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_preview_texture.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_preview_texture.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_preview_video_surface.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_preview_video_surface.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_received_media.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_received_media.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_received_registry.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_received_registry.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_received_source.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_received_source.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_recording_bridge.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_recording_bridge.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_recording_digest.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_recording_file.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_recording_file.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_recording_permission.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_recording_permission.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_recording_stream.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_recording_stream.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_selected_program.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_selected_program.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_selected_recording_bridge.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_selected_recording_bridge.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_video_normalizer.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/monitor_video_normalizer.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/webrtc_runtime_owner.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/webrtc_runtime_owner.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/native/wifi_connection.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/runner/CMakeLists.txt"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2014 The Flutter Authors"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/runner/Runner.rc"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2014 The Flutter Authors"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/runner/flutter_window.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2014 The Flutter Authors"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/runner/flutter_window.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2014 The Flutter Authors"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/runner/main.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2014 The Flutter Authors"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/runner/resource.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/runner/resources/app_icon.ico"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["windows/runner/runner.exe.manifest"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/runner/utils.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/runner/utils.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/runner/win32_window.cpp"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)", "2014 The Flutter Authors"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause"
+
+[[annotations]]
+path = ["windows/runner/win32_window.h"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2014 The Flutter Authors"]
+SPDX-License-Identifier = "BSD-3-Clause"
+
+[[annotations]]
+path = ["README.md", "SECURITY.md", "SOURCE.json"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["NOTICE"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = ["2019 Hugo DELAUNAY \"Skyost\"", "2024 Michael Bui", "2024 Navideck Labs O\u00dc", "2025-2026 Pascal Mietlicki (COVOIT.NC)"]
+SPDX-License-Identifier = "Apache-2.0 AND BSD-3-Clause AND MIT"

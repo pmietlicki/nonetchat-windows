@@ -1,0 +1,458 @@
+{
+  "files": {
+    "native/fmp4_audio_admission.h": {
+      "sha256": "447bd10f5a3b3461a7a64fd2ebf62cae98348c664bbb02f8b78c535d3e765277",
+      "sourceSha256": "447bd10f5a3b3461a7a64fd2ebf62cae98348c664bbb02f8b78c535d3e765277",
+      "transform": "copy"
+    },
+    "native/fmp4_av_admission.h": {
+      "sha256": "9135cc911e1cf1229a622812934c1052a50c893af870e2d642d34747ae86ea9f",
+      "sourceSha256": "9135cc911e1cf1229a622812934c1052a50c893af870e2d642d34747ae86ea9f",
+      "transform": "copy"
+    },
+    "native/local_media_async_host.h": {
+      "sha256": "129de5c0df6f0718fe89454a9a3a3653081f48f7b7d7554cb7f1edbc66b15a1d",
+      "sourceSha256": "129de5c0df6f0718fe89454a9a3a3653081f48f7b7d7554cb7f1edbc66b15a1d",
+      "transform": "copy"
+    },
+    "native/local_media_ownership.h": {
+      "sha256": "4da7dc6ee31149171eba7be3d60158f212a5eb05f9f8a08982918c8b7346cddf",
+      "sourceSha256": "4da7dc6ee31149171eba7be3d60158f212a5eb05f9f8a08982918c8b7346cddf",
+      "transform": "copy"
+    },
+    "native/local_pcm_queue.h": {
+      "sha256": "77b3766a80e99151adb0c88a069edf1cd364b0d6124737769e58c2020e642fe1",
+      "sourceSha256": "77b3766a80e99151adb0c88a069edf1cd364b0d6124737769e58c2020e642fe1",
+      "transform": "copy"
+    },
+    "native/local_video_queue.h": {
+      "sha256": "c50ef08547b8fff5477e3da2094e6266897194bc6361c456c82d8e4353e36b98",
+      "sourceSha256": "c50ef08547b8fff5477e3da2094e6266897194bc6361c456c82d8e4353e36b98",
+      "transform": "copy"
+    },
+    "tool/cmake/local_media_plugins.cmake": {
+      "sha256": "7aebd35c3baf307de5f5e814a5f2129de6cdc10db9f569a753f2d800488d8fb9",
+      "sourceSha256": "7aebd35c3baf307de5f5e814a5f2129de6cdc10db9f569a753f2d800488d8fb9",
+      "transform": "copy"
+    },
+    "tool/cmake/webrtc_sdk.cmake": {
+      "sha256": "68537acf780ef4f78999a547c432233c7f49a263937aa2a37e5edf0de37098d7",
+      "sourceSha256": "68537acf780ef4f78999a547c432233c7f49a263937aa2a37e5edf0de37098d7",
+      "transform": "copy"
+    },
+    "tool/cmake/webrtc_sources.cmake": {
+      "sha256": "5b302bdd9315f5e1b8e01f162726525e80dd45f690566e7882de1358b7e9d106",
+      "sourceSha256": "5b302bdd9315f5e1b8e01f162726525e80dd45f690566e7882de1358b7e9d106",
+      "transform": "copy"
+    },
+    "tool/cmake/webrtc_windows_monitor.cmake": {
+      "sha256": "824a5c182cd50c8ea8be44558ac5793d6248cad42724c03c13546fc6cd534a5b",
+      "sourceSha256": "824a5c182cd50c8ea8be44558ac5793d6248cad42724c03c13546fc6cd534a5b",
+      "transform": "copy"
+    },
+    "windows/.gitignore": {
+      "sha256": "96345475f1a3c66bd32d28178fba151ab1506b35b1f7857b8f7651863093ea11",
+      "sourceSha256": "96345475f1a3c66bd32d28178fba151ab1506b35b1f7857b8f7651863093ea11",
+      "transform": "copy"
+    },
+    "windows/CMakeLists.txt": {
+      "sha256": "4c363b2bd3099ea1a2a291bbb7bf038af543ae116766de9313bb0178af23d15a",
+      "sourceSha256": "4c363b2bd3099ea1a2a291bbb7bf038af543ae116766de9313bb0178af23d15a",
+      "transform": "copy"
+    },
+    "windows/cmake/bonsoir_compat.cmake": {
+      "sha256": "b2cc086bf7e9ee96f957e62664b0c8a165315de9a21e3cfec1fd43e587bf0d37",
+      "sourceSha256": "b2cc086bf7e9ee96f957e62664b0c8a165315de9a21e3cfec1fd43e587bf0d37",
+      "transform": "copy"
+    },
+    "windows/cmake/local_notifications_compat.cmake": {
+      "sha256": "acac91099360d3ed6b481cd90291d5c8661c822a44e786fb50bec5e3b7a6e56e",
+      "sourceSha256": "acac91099360d3ed6b481cd90291d5c8661c822a44e786fb50bec5e3b7a6e56e",
+      "transform": "copy"
+    },
+    "windows/cmake/universal_ble_compat.cmake": {
+      "sha256": "529f3c17e50188955a2813b5bb9ed48f169d2e421e3c4309f5054e9c7d9bb050",
+      "sourceSha256": "529f3c17e50188955a2813b5bb9ed48f169d2e421e3c4309f5054e9c7d9bb050",
+      "transform": "copy"
+    },
+    "windows/flutter/CMakeLists.txt": {
+      "sha256": "1fe418971b6f41bb35ceb3d64113a835f3f6f171ecaa707bf232492b57a588d6",
+      "sourceSha256": "1fe418971b6f41bb35ceb3d64113a835f3f6f171ecaa707bf232492b57a588d6",
+      "transform": "copy"
+    },
+    "windows/flutter/generated_plugin_registrant.cc": {
+      "sha256": "06292d234ea573ca5b626175272c737b6ce638ff37c1e86229ec8092449bcfce",
+      "sourceSha256": "06292d234ea573ca5b626175272c737b6ce638ff37c1e86229ec8092449bcfce",
+      "transform": "copy"
+    },
+    "windows/flutter/generated_plugin_registrant.h": {
+      "sha256": "dbc11635d7b1ba1887adf40df5b83d634e9c3ab0bee34510c71528bb4d73602a",
+      "sourceSha256": "dbc11635d7b1ba1887adf40df5b83d634e9c3ab0bee34510c71528bb4d73602a",
+      "transform": "copy"
+    },
+    "windows/flutter/generated_plugins.cmake": {
+      "sha256": "f5fe227919901f7c42570f3377206d4a57a0254c405d7c96f32eaf353a26d4c1",
+      "sourceSha256": "f5fe227919901f7c42570f3377206d4a57a0254c405d7c96f32eaf353a26d4c1",
+      "transform": "copy"
+    },
+    "windows/native/ble_cleanup.h": {
+      "sha256": "bdbbaffceeabaf57385ccc20f34d46bc906420b4d3eca2e6d2aea2ef2e9d3f6a",
+      "sourceSha256": "bdbbaffceeabaf57385ccc20f34d46bc906420b4d3eca2e6d2aea2ef2e9d3f6a",
+      "transform": "copy"
+    },
+    "windows/native/ble_notification_lifetime.h": {
+      "sha256": "53671196babc1dec18f23ae0b9e4317580220959e5a24d6dbbb32a391bc3f365",
+      "sourceSha256": "53671196babc1dec18f23ae0b9e4317580220959e5a24d6dbbb32a391bc3f365",
+      "transform": "copy"
+    },
+    "windows/native/ble_notify.cpp.inc": {
+      "sha256": "8028a50d22470f8829f92bab2e5d28bc70a8ef3f17202deae62d6ee00f1e91e9",
+      "sourceSha256": "8028a50d22470f8829f92bab2e5d28bc70a8ef3f17202deae62d6ee00f1e91e9",
+      "transform": "copy"
+    },
+    "windows/native/ble_subscriptions.cpp.inc": {
+      "sha256": "c277c3cc1d2a71e40b192b11bd9374a5e7695b3834e497fe8e0570a76ce2240c",
+      "sourceSha256": "c277c3cc1d2a71e40b192b11bd9374a5e7695b3834e497fe8e0570a76ce2240c",
+      "transform": "copy"
+    },
+    "windows/native/engine_lifetime_messenger.h": {
+      "sha256": "dbcbcd7b7a0dbd3f0b3907ffeefe3747274756c7a92509a889429c09b74d9e62",
+      "sourceSha256": "dbcbcd7b7a0dbd3f0b3907ffeefe3747274756c7a92509a889429c09b74d9e62",
+      "transform": "copy"
+    },
+    "windows/native/local_media_indicator.cpp": {
+      "sha256": "70c1ca7127fd257fa61cbb64d84110ca601b1abf89ddb94a08dcf785bf930a05",
+      "sourceSha256": "70c1ca7127fd257fa61cbb64d84110ca601b1abf89ddb94a08dcf785bf930a05",
+      "transform": "copy"
+    },
+    "windows/native/local_media_indicator.h": {
+      "sha256": "860c715cd701c35e2c322f6c385befdabe762d4cfcc151b6f86f07c0add19dfe",
+      "sourceSha256": "860c715cd701c35e2c322f6c385befdabe762d4cfcc151b6f86f07c0add19dfe",
+      "transform": "copy"
+    },
+    "windows/native/local_media_indicator_win32.cpp": {
+      "sha256": "aac817bcaba40916007a9ec85e705303584071f468fba6ab25fc93c26568cff4",
+      "sourceSha256": "aac817bcaba40916007a9ec85e705303584071f468fba6ab25fc93c26568cff4",
+      "transform": "copy"
+    },
+    "windows/native/local_notification_ffi_boundary.inc": {
+      "sha256": "79ed4f9317b312d872d3382f4d037dafdc2896f718afeb356f5b9cb49b8bbe3b",
+      "sourceSha256": "79ed4f9317b312d872d3382f4d037dafdc2896f718afeb356f5b9cb49b8bbe3b",
+      "transform": "copy"
+    },
+    "windows/native/local_notification_lifetime.h": {
+      "sha256": "5d48bcb60d3e4591465d585ad6b9443c7063b091247a9a44d0b8db70d0ab72ad",
+      "sourceSha256": "5d48bcb60d3e4591465d585ad6b9443c7063b091247a9a44d0b8db70d0ab72ad",
+      "transform": "copy"
+    },
+    "windows/native/monitor_aac_inspector.cpp": {
+      "sha256": "879fc80fd0fb67c4e9205279d26e05c00c6cfb445ade68b5dbe2e2c7307d9fdf",
+      "sourceSha256": "879fc80fd0fb67c4e9205279d26e05c00c6cfb445ade68b5dbe2e2c7307d9fdf",
+      "transform": "copy"
+    },
+    "windows/native/monitor_aac_inspector.h": {
+      "sha256": "b45ece607754683d8db4bbe18d70874d1af08e3f4717381abcf18c9b667bebfd",
+      "sourceSha256": "b45ece607754683d8db4bbe18d70874d1af08e3f4717381abcf18c9b667bebfd",
+      "transform": "copy"
+    },
+    "windows/native/monitor_aac_sink.cpp": {
+      "sha256": "4ef6928be5c76e6c46614deec09a6a06ec30ab7a1dbc66346732b0241c2b208c",
+      "sourceSha256": "4ef6928be5c76e6c46614deec09a6a06ec30ab7a1dbc66346732b0241c2b208c",
+      "transform": "copy"
+    },
+    "windows/native/monitor_aac_sink.h": {
+      "sha256": "14f7ca51e16f084e7da2dd633febaea00e7e67b361eed45f259ffb8353b19fc2",
+      "sourceSha256": "14f7ca51e16f084e7da2dd633febaea00e7e67b361eed45f259ffb8353b19fc2",
+      "transform": "copy"
+    },
+    "windows/native/monitor_av_fragment_stream.cpp": {
+      "sha256": "8d41fd6c0e36107715385d7e3b37cbf28e3e3f6334948fbd69e53e5b3ba210ed",
+      "sourceSha256": "8d41fd6c0e36107715385d7e3b37cbf28e3e3f6334948fbd69e53e5b3ba210ed",
+      "transform": "copy"
+    },
+    "windows/native/monitor_av_fragment_stream.h": {
+      "sha256": "37158ad280dedec629fc1e3f1d95b68d73d77661176a40a2e641ac5f4296b609",
+      "sourceSha256": "37158ad280dedec629fc1e3f1d95b68d73d77661176a40a2e641ac5f4296b609",
+      "transform": "copy"
+    },
+    "windows/native/monitor_av_index.h": {
+      "sha256": "be3a20ac49264f946bb15b2d1b1b73fdddde798ebc496d1afde133dd1dcf94ab",
+      "sourceSha256": "be3a20ac49264f946bb15b2d1b1b73fdddde798ebc496d1afde133dd1dcf94ab",
+      "transform": "copy"
+    },
+    "windows/native/monitor_av_inspector.cpp": {
+      "sha256": "00d5a72f1372cf670fa728640dfdcf5f28eb18c42d4e96caafce5864962792d5",
+      "sourceSha256": "00d5a72f1372cf670fa728640dfdcf5f28eb18c42d4e96caafce5864962792d5",
+      "transform": "copy"
+    },
+    "windows/native/monitor_av_inspector.h": {
+      "sha256": "5c846448ac31f03d40d5b1aa0678b0c1cba2ec44a0d6ac0cec018cc28f18797a",
+      "sourceSha256": "5c846448ac31f03d40d5b1aa0678b0c1cba2ec44a0d6ac0cec018cc28f18797a",
+      "transform": "copy"
+    },
+    "windows/native/monitor_av_program.cpp": {
+      "sha256": "2e852e91545639a633d6f8e084df8cff087d6c67ac7c156a33685cb484f0f396",
+      "sourceSha256": "2e852e91545639a633d6f8e084df8cff087d6c67ac7c156a33685cb484f0f396",
+      "transform": "copy"
+    },
+    "windows/native/monitor_av_program.h": {
+      "sha256": "48d8e20bb5b55542a37d8e639ea423a70dcd1d923dd3b22f8fb54b3c1b881c8c",
+      "sourceSha256": "48d8e20bb5b55542a37d8e639ea423a70dcd1d923dd3b22f8fb54b3c1b881c8c",
+      "transform": "copy"
+    },
+    "windows/native/monitor_av_sink.cpp": {
+      "sha256": "67790f559dfcb1f270f77db66bb5d30ae3dee97763022f7e2807f68bd67648e1",
+      "sourceSha256": "67790f559dfcb1f270f77db66bb5d30ae3dee97763022f7e2807f68bd67648e1",
+      "transform": "copy"
+    },
+    "windows/native/monitor_av_sink.h": {
+      "sha256": "aaacef095d7ec2bad15171b3d3afbc23c3237df75b0e1fb0b9095bf8ab8064c6",
+      "sourceSha256": "aaacef095d7ec2bad15171b3d3afbc23c3237df75b0e1fb0b9095bf8ab8064c6",
+      "transform": "copy"
+    },
+    "windows/native/monitor_fragment_stream.cpp": {
+      "sha256": "19aaed2278243d0465664aac00b783c4218debf592f02fecd47cf66033980ed4",
+      "sourceSha256": "19aaed2278243d0465664aac00b783c4218debf592f02fecd47cf66033980ed4",
+      "transform": "copy"
+    },
+    "windows/native/monitor_fragment_stream.h": {
+      "sha256": "d93279c18b19caf9323e905cdab53b5f8fb0da698575d39e0e91b2d2aadfb492",
+      "sourceSha256": "d93279c18b19caf9323e905cdab53b5f8fb0da698575d39e0e91b2d2aadfb492",
+      "transform": "copy"
+    },
+    "windows/native/monitor_media_stream.h": {
+      "sha256": "9a87265a73337371c7801640a4128a665646de2ebd93706b16c6c60390d8e5d2",
+      "sourceSha256": "9a87265a73337371c7801640a4128a665646de2ebd93706b16c6c60390d8e5d2",
+      "transform": "copy"
+    },
+    "windows/native/monitor_pcm_pump.cpp": {
+      "sha256": "9eb713a1901c87665daf24833b8b173d8080c528d46b26e69b7d5322bcb5c517",
+      "sourceSha256": "9eb713a1901c87665daf24833b8b173d8080c528d46b26e69b7d5322bcb5c517",
+      "transform": "copy"
+    },
+    "windows/native/monitor_pcm_pump.h": {
+      "sha256": "6ee5b90aa2c71b6b14c92240d3fb5e958db80721453e67531bbe477d914f5ff2",
+      "sourceSha256": "6ee5b90aa2c71b6b14c92240d3fb5e958db80721453e67531bbe477d914f5ff2",
+      "transform": "copy"
+    },
+    "windows/native/monitor_preview_frame.h": {
+      "sha256": "13f976929fedbb1da10aa21ac5b120e159a31c40430785ed150ecd04c8e587ad",
+      "sourceSha256": "13f976929fedbb1da10aa21ac5b120e159a31c40430785ed150ecd04c8e587ad",
+      "transform": "copy"
+    },
+    "windows/native/monitor_preview_player.cpp": {
+      "sha256": "47381392d3d2129471cec3ff189ab1d54cafad2cd6bcc98ed8264a68ae39ef6c",
+      "sourceSha256": "47381392d3d2129471cec3ff189ab1d54cafad2cd6bcc98ed8264a68ae39ef6c",
+      "transform": "copy"
+    },
+    "windows/native/monitor_preview_player.h": {
+      "sha256": "62717dcb2f69043b3380af196be135ad710f045d9c2db4105cf4accedcfaa13b",
+      "sourceSha256": "62717dcb2f69043b3380af196be135ad710f045d9c2db4105cf4accedcfaa13b",
+      "transform": "copy"
+    },
+    "windows/native/monitor_preview_texture.cpp": {
+      "sha256": "4c22d40f7e6416f586b4534010b142f3af6594e3a3994d12b9a1242fba8c05e8",
+      "sourceSha256": "4c22d40f7e6416f586b4534010b142f3af6594e3a3994d12b9a1242fba8c05e8",
+      "transform": "copy"
+    },
+    "windows/native/monitor_preview_texture.h": {
+      "sha256": "84e75c13f3760f803c7a671900ebc753fa6d3ef170095b217dee48f1afe1c5d1",
+      "sourceSha256": "84e75c13f3760f803c7a671900ebc753fa6d3ef170095b217dee48f1afe1c5d1",
+      "transform": "copy"
+    },
+    "windows/native/monitor_preview_video_surface.cpp": {
+      "sha256": "67b48fdde7769addfc00042784caef602b4fa4719fb218869dff7277a1e27e18",
+      "sourceSha256": "67b48fdde7769addfc00042784caef602b4fa4719fb218869dff7277a1e27e18",
+      "transform": "copy"
+    },
+    "windows/native/monitor_preview_video_surface.h": {
+      "sha256": "b27f2abe68e3ac1a4154b786a4b54feb25e305691ec46dd1f632dd57fdd991cb",
+      "sourceSha256": "b27f2abe68e3ac1a4154b786a4b54feb25e305691ec46dd1f632dd57fdd991cb",
+      "transform": "copy"
+    },
+    "windows/native/monitor_received_media.cpp": {
+      "sha256": "c1eee0f3b62815998fc7ca68fd2f24917443cfb3e886431cd50d271ca3f58b2c",
+      "sourceSha256": "c1eee0f3b62815998fc7ca68fd2f24917443cfb3e886431cd50d271ca3f58b2c",
+      "transform": "copy"
+    },
+    "windows/native/monitor_received_media.h": {
+      "sha256": "8bf2f2ca4a7e27f3582398d1c72260707a7dc0df85427e3aaaea7a63bd87f53a",
+      "sourceSha256": "8bf2f2ca4a7e27f3582398d1c72260707a7dc0df85427e3aaaea7a63bd87f53a",
+      "transform": "copy"
+    },
+    "windows/native/monitor_received_registry.cpp": {
+      "sha256": "8d434daf1d01b875183b98b6dc1fc8ad6c5855c76b0bfa82097062a301aa742c",
+      "sourceSha256": "8d434daf1d01b875183b98b6dc1fc8ad6c5855c76b0bfa82097062a301aa742c",
+      "transform": "copy"
+    },
+    "windows/native/monitor_received_registry.h": {
+      "sha256": "8d4a5a91bd78277d840e59c77189b4e7dce7b5a0cb24f2f960766d206c53b031",
+      "sourceSha256": "8d4a5a91bd78277d840e59c77189b4e7dce7b5a0cb24f2f960766d206c53b031",
+      "transform": "copy"
+    },
+    "windows/native/monitor_received_source.cpp": {
+      "sha256": "76411342e4dfcf4c129a8983aee821a102edb100316fc3d19ba419bba99229df",
+      "sourceSha256": "76411342e4dfcf4c129a8983aee821a102edb100316fc3d19ba419bba99229df",
+      "transform": "copy"
+    },
+    "windows/native/monitor_received_source.h": {
+      "sha256": "6370e3760f04889d0f11525e9798696b5f8c9dfb43cb6f5a744daf081995f5b7",
+      "sourceSha256": "6370e3760f04889d0f11525e9798696b5f8c9dfb43cb6f5a744daf081995f5b7",
+      "transform": "copy"
+    },
+    "windows/native/monitor_recording_bridge.cpp": {
+      "sha256": "15f981dd05efe28efb3358999dda655fe901a893f1fee9f70d1090dd8eeb4773",
+      "sourceSha256": "15f981dd05efe28efb3358999dda655fe901a893f1fee9f70d1090dd8eeb4773",
+      "transform": "copy"
+    },
+    "windows/native/monitor_recording_bridge.h": {
+      "sha256": "daa19e233d5f2511b57ff35dce20bdab0b05e882c523a6a24acf96ce2e1bd5cc",
+      "sourceSha256": "daa19e233d5f2511b57ff35dce20bdab0b05e882c523a6a24acf96ce2e1bd5cc",
+      "transform": "copy"
+    },
+    "windows/native/monitor_recording_digest.h": {
+      "sha256": "d7b849676b53548871deb3eeaad2b0cf18a74345145f454f8e3720c2ca06458c",
+      "sourceSha256": "d7b849676b53548871deb3eeaad2b0cf18a74345145f454f8e3720c2ca06458c",
+      "transform": "copy"
+    },
+    "windows/native/monitor_recording_file.cpp": {
+      "sha256": "10270e5289f963f2f599597dacd1320ac602e36d6410da129bd4321c622e217c",
+      "sourceSha256": "10270e5289f963f2f599597dacd1320ac602e36d6410da129bd4321c622e217c",
+      "transform": "copy"
+    },
+    "windows/native/monitor_recording_file.h": {
+      "sha256": "9079bc8adbca9a13429c86652913a814f64f3a5a04f607f7c75de0d805e0c394",
+      "sourceSha256": "9079bc8adbca9a13429c86652913a814f64f3a5a04f607f7c75de0d805e0c394",
+      "transform": "copy"
+    },
+    "windows/native/monitor_recording_permission.cpp": {
+      "sha256": "748bccffd5d9097bb695a67d910e281114165ca7b27ee06ae535d4802e67e243",
+      "sourceSha256": "748bccffd5d9097bb695a67d910e281114165ca7b27ee06ae535d4802e67e243",
+      "transform": "copy"
+    },
+    "windows/native/monitor_recording_permission.h": {
+      "sha256": "938ec5a0f99fff458ad2bab53708c44b30f216f406684763e8f9e62b63863877",
+      "sourceSha256": "938ec5a0f99fff458ad2bab53708c44b30f216f406684763e8f9e62b63863877",
+      "transform": "copy"
+    },
+    "windows/native/monitor_recording_stream.cpp": {
+      "sha256": "cb0efb99596c22797ed8feb8510389c3822f67c409fce2572306e296d74409ca",
+      "sourceSha256": "cb0efb99596c22797ed8feb8510389c3822f67c409fce2572306e296d74409ca",
+      "transform": "copy"
+    },
+    "windows/native/monitor_recording_stream.h": {
+      "sha256": "1909df3ea17b0b929a6849cf60952e22faea5de202c9f14f4d37cf9a72c15364",
+      "sourceSha256": "1909df3ea17b0b929a6849cf60952e22faea5de202c9f14f4d37cf9a72c15364",
+      "transform": "copy"
+    },
+    "windows/native/monitor_selected_program.cpp": {
+      "sha256": "087443250df2f757103a08a438e22e955d7c20dfc511c32a86c9b36beaf67d24",
+      "sourceSha256": "087443250df2f757103a08a438e22e955d7c20dfc511c32a86c9b36beaf67d24",
+      "transform": "copy"
+    },
+    "windows/native/monitor_selected_program.h": {
+      "sha256": "2a432a6dd75ceb6693ff6772f17f8c455f597ecd848b0856beeed79b7e4588fe",
+      "sourceSha256": "2a432a6dd75ceb6693ff6772f17f8c455f597ecd848b0856beeed79b7e4588fe",
+      "transform": "copy"
+    },
+    "windows/native/monitor_selected_recording_bridge.cpp": {
+      "sha256": "f89cede8a4e20b0e440a84efe8487439dcfc8731957132cf75a20898cba552d9",
+      "sourceSha256": "f89cede8a4e20b0e440a84efe8487439dcfc8731957132cf75a20898cba552d9",
+      "transform": "copy"
+    },
+    "windows/native/monitor_selected_recording_bridge.h": {
+      "sha256": "a055cb32b4e6c57a0562be2bdc9960b10e9824122131aff32e5f013e7f06bd81",
+      "sourceSha256": "a055cb32b4e6c57a0562be2bdc9960b10e9824122131aff32e5f013e7f06bd81",
+      "transform": "copy"
+    },
+    "windows/native/monitor_video_normalizer.cpp": {
+      "sha256": "19fe7b9ad9ebe46f58c45063858543510c25937ea3d9c71861311e967706017b",
+      "sourceSha256": "19fe7b9ad9ebe46f58c45063858543510c25937ea3d9c71861311e967706017b",
+      "transform": "copy"
+    },
+    "windows/native/monitor_video_normalizer.h": {
+      "sha256": "5252172eeb47f1e7b85e1407b0e60b3c96bdb387d81c55593911f620dbf106d8",
+      "sourceSha256": "5252172eeb47f1e7b85e1407b0e60b3c96bdb387d81c55593911f620dbf106d8",
+      "transform": "copy"
+    },
+    "windows/native/webrtc_runtime_owner.cpp": {
+      "sha256": "ab7180e4cd7227baeda96deb656feb262f19a405585a32015761e7b03b31e4aa",
+      "sourceSha256": "ab7180e4cd7227baeda96deb656feb262f19a405585a32015761e7b03b31e4aa",
+      "transform": "copy"
+    },
+    "windows/native/webrtc_runtime_owner.h": {
+      "sha256": "d6981af75037e2c4f23807d430ab0d6516301a48574bcfca6fe40e6d4ec0a7f8",
+      "sourceSha256": "d6981af75037e2c4f23807d430ab0d6516301a48574bcfca6fe40e6d4ec0a7f8",
+      "transform": "copy"
+    },
+    "windows/native/wifi_connection.cpp": {
+      "sha256": "460371bec9a98334148836a9881c5a01f0099ba5343e619479a09579e9747536",
+      "sourceSha256": "460371bec9a98334148836a9881c5a01f0099ba5343e619479a09579e9747536",
+      "transform": "copy"
+    },
+    "windows/runner/CMakeLists.txt": {
+      "sha256": "9b2668e8e2816abe5209743faf500d5173646525a6cee796172f74a55da3c041",
+      "sourceSha256": "9b2668e8e2816abe5209743faf500d5173646525a6cee796172f74a55da3c041",
+      "transform": "copy"
+    },
+    "windows/runner/Runner.rc": {
+      "sha256": "924159bf9ba9e4bf3aadbda891b9eba864ff1ba475d1179bb49cbe751f64cd35",
+      "sourceSha256": "924159bf9ba9e4bf3aadbda891b9eba864ff1ba475d1179bb49cbe751f64cd35",
+      "transform": "copy"
+    },
+    "windows/runner/flutter_window.cpp": {
+      "sha256": "542c3c6aae98f799312cad497a070ef881d6e90fbd07d44f42573c957aaf946b",
+      "sourceSha256": "542c3c6aae98f799312cad497a070ef881d6e90fbd07d44f42573c957aaf946b",
+      "transform": "copy"
+    },
+    "windows/runner/flutter_window.h": {
+      "sha256": "f9ed2260ff670d05036bb6bf69eb81f8154da3ca676d2838b591ba9cadd5deb3",
+      "sourceSha256": "f9ed2260ff670d05036bb6bf69eb81f8154da3ca676d2838b591ba9cadd5deb3",
+      "transform": "copy"
+    },
+    "windows/runner/main.cpp": {
+      "sha256": "ea101bfbaf760b063550d969bc1d25e2141431fe777f02749e466d5f89151b9c",
+      "sourceSha256": "ea101bfbaf760b063550d969bc1d25e2141431fe777f02749e466d5f89151b9c",
+      "transform": "copy"
+    },
+    "windows/runner/resource.h": {
+      "sha256": "1fa98588b04561590ba1cf0521ab86a9db4a878312f21c9d5861d965ddd8d1ae",
+      "sourceSha256": "1fa98588b04561590ba1cf0521ab86a9db4a878312f21c9d5861d965ddd8d1ae",
+      "transform": "copy"
+    },
+    "windows/runner/resources/app_icon.ico": {
+      "sha256": "136ad0cf87915e5b2a36a562f0576207102d68363b6ec778f86bcfc7b9983049",
+      "sourceSha256": "136ad0cf87915e5b2a36a562f0576207102d68363b6ec778f86bcfc7b9983049",
+      "transform": "copy"
+    },
+    "windows/runner/runner.exe.manifest": {
+      "sha256": "825d243e9fa1542619909c1b72d09b3ed7c1f3b225bb8367c125835e5dc3f8aa",
+      "sourceSha256": "825d243e9fa1542619909c1b72d09b3ed7c1f3b225bb8367c125835e5dc3f8aa",
+      "transform": "copy"
+    },
+    "windows/runner/utils.cpp": {
+      "sha256": "dc2ee94d43116f959a4abd42557f71d07acc631abbffe03b11489dbeed35bedb",
+      "sourceSha256": "dc2ee94d43116f959a4abd42557f71d07acc631abbffe03b11489dbeed35bedb",
+      "transform": "copy"
+    },
+    "windows/runner/utils.h": {
+      "sha256": "95a7f7dddb832997cefa937a96f89472332277e75734a5de553610760b744b03",
+      "sourceSha256": "95a7f7dddb832997cefa937a96f89472332277e75734a5de553610760b744b03",
+      "transform": "copy"
+    },
+    "windows/runner/win32_window.cpp": {
+      "sha256": "58d5b13458386b48bf9e5a15081321a86804275fe2546c6e2cc6bc53e2237202",
+      "sourceSha256": "58d5b13458386b48bf9e5a15081321a86804275fe2546c6e2cc6bc53e2237202",
+      "transform": "copy"
+    },
+    "windows/runner/win32_window.h": {
+      "sha256": "7dd03746b19dcf3542829b2f6e8ed40a2714ce5f2cb3b0e23f0118a2fcf62d62",
+      "sourceSha256": "7dd03746b19dcf3542829b2f6e8ed40a2714ce5f2cb3b0e23f0118a2fcf62d62",
+      "transform": "copy"
+    }
+  },
+  "platform": "windows",
+  "schema": 1,
+  "sourceRevision": "7ac3e00c98bbdd4b877ad5abc1021928a03864b3",
+  "version": "0.3.0"
+}
